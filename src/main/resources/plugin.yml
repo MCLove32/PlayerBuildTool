@@ -1,0 +1,20 @@
+name: PlayerBuildTool
+version: '${project.version}'
+main: azuazu3939.playerbuildtool.PlayerBuildTool
+api-version: 1.20
+
+commands:
+  BuildTool:
+    permission: PlayerBuildTool.command.BuildTool
+    description: "出す奴。"
+    aliases: [PBT]
+  BuildToolsReload:
+    permission: PlayerBuildTool.command.BuildToolsReload
+    description: "reloadConfig"
+    aliases: [btr]
+
+permissions:
+  PlayerBuildTool.command.BuildTool:
+    default: false
+  PlayerBuildTool.command.BuildToolsReload:
+    default: false

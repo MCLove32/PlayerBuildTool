@@ -1,0 +1,10 @@
+BuildItemLore:
+  - "&fプレイヤー用建築補助ツール"
+  - "&f手持ちのブロックを消費して、ブロック設置します。"
+  - "&fシフト左で設定を開きます。"
+
+#tick
+Place-Cooldown: 5
+tools-enable-worlds:
+  - world
+  - AdminWorld
